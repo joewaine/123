@@ -1,0 +1,851 @@
+tv.freewheel.SDK._instanceQueue['Context_1'].requestComplete({
+	"version" : "1",
+	"networkId" : "82125",
+	"parameters" : [
+		{
+			"name" : "autoloadExtensions",
+			"category" : "profile",
+			"value" : "https:\/\/z.moatads.com\/freewheel353205095517817\/MoatFreeWheelJSPEM.js,https:\/\/media.truex.com\/release\/3.2\/com\/truex\/placements\/vpaid\/partners\/fw\/com.truex.TrueXRenderer.js"
+		},
+		{
+			"name" : "deviceType",
+			"category" : "profile",
+			"value" : "2-Personal Computer"
+		},
+		{
+			"name" : "enableExternalCandidateSSTF",
+			"category" : "profile",
+			"value" : "1"
+		},
+		{
+			"name" : "requestRecordSamplingRate",
+			"category" : "profile",
+			"value" : "10"
+		}
+	],
+	"rendererManifest" : {
+		"adRenderers" : {
+			"version" : "1",
+			"adRenderer" : [
+				{
+					"name" : "g_html5_vpaid",
+					"url" : "class:\/\/VPAIDRenderer",
+					"contentType" : "text\/js_ref,",
+					"adUnit" : "video,fixed-size-interactive,app-interstitial,",
+					"slotType" : "preroll,midroll,postroll,overlay,",
+					"creativeApi" : "VPAID,"
+				},
+				{
+					"name" : "82125:mtvn_html5_video_mp4_2500kbps",
+					"url" : "class:\/\/VideoRenderer",
+					"contentType" : "video\/mp4-h264,video\/mp4,video\/m4v,video\/mp4-mpeg4,video\/mp4-mpeg4_simple,video\/m4v-h264_less_eq_level_3_baseline-640-480-less_eq_1500_kbps-aaclc,video\/mp4-h264_less_eq_level_3_baseline-640-480-less_eq_1500_kbps-aaclc,video\/mov-h264_less_eq_level_3_baseline-640-480-less_eq_1500_kbps-aaclc,video\/m4v-h264_less_level_1.3_baseline-320-240-less_eq_768_kbps-aaclc,video\/mp4-h264_less_level_1.3_baseline-320-240-less_eq_768_kbps-aaclc,video\/mov-h264_less_level_1.3_baseline-320-240-less_eq_768_kbps-aaclc,video\/m4v-mpeg4-640-480-less_eq_2500_kbps-aaclc,video\/mp4-mpeg4-640-480-less_eq_2500_kbps-aaclc,video\/mov-mpeg4-640-480-less_eq_2500_kbps-aaclc,",
+					"adUnit" : "video,slate,",
+					"slotType" : "preroll,midroll,postroll,",
+					"creativeApi" : "None,"
+				},
+				{
+					"name" : "82125:Copy of g_html5_vast_2500kbps",
+					"url" : "class:\/\/VastTranslator",
+					"contentType" : "external\/vast-2,",
+					"adUnit" : "video,still-image,fixed-size-interactive,linear-animation,slate,app-interstitial,",
+					"slotType" : "preroll,midroll,postroll,overlay,display,",
+					"parameter" : [
+						{
+							"name" : "translator.vast.asyncLoad",
+							"value" : "true"
+						}
+					],
+					"creativeApi" : "VPAID,MRAID-1.0,None,"
+				},
+				{
+					"name" : "82125:Copy of g_html5_tremor_2500kbps",
+					"url" : "https:\/\/mssl.fwmrm.net\/p\/mtvn_live_edge_6.1.0\/tv.freewheel.renderer.TremorRenderer.js",
+					"contentType" : "external\/tremor-js,",
+					"adUnit" : "video,",
+					"slotType" : "preroll,postroll,",
+					"creativeApi" : "None,"
+				},
+				{
+					"name" : "82125:Copy of g_html5_html_wo_mraid_since_5.13",
+					"url" : "class:\/\/HTMLRenderer",
+					"contentType" : "text\/html_doc_ref,text\/html_doc_lit_mobile,text\/html_lit_nowrapper,",
+					"adUnit" : "video,still-image,fixed-size-interactive,linear-animation,slate,app-interstitial,",
+					"slotType" : "preroll,midroll,postroll,overlay,display,",
+					"creativeApi" : "None,"
+				},
+				{
+					"name" : "g_html5_truex_https",
+					"url" : "https:\/\/media.truex.com\/release\/3.2\/com\/truex\/placements\/vpaid\/partners\/fw\/com.truex.TrueXRenderer.js",
+					"contentType" : "external\/truex,",
+					"adUnit" : "video,linear-animation,slate,",
+					"slotType" : "preroll,midroll,postroll,",
+					"creativeApi" : "None,"
+				}
+			]
+		}
+	},
+	"visitor" : {
+		"httpHeaders" : [],
+		"state" : []
+	},
+	"errors" : {
+		"errors" : []
+	},
+	"eventCallbacks" : {
+		"eventCallbacks" : [
+			{
+				"url" : "https:\/\/140cc.v.fwmrm.net\/ad\/l\/1?s=b229&n=82125%3B82125%3B174975%3B372496%3B376521%3B379619%3B382114%3B384777%3B386329%3B505334%3B510839%3B512029%3B515018%3B516274%3B516448%3B516649&t=1585202126607925026",
+				"type" : "GENERIC",
+				"use" : "BASE",
+				"showBrowser" : false,
+				"trackingUrls" : []
+			}
+		]
+	},
+	"ads" : {
+		"ads" : [
+			{
+				"adId" : "27589604",
+				"noPreload" : false,
+				"noLoad" : false,
+				"adUnit" : "14576",
+				"isWrapper" : false,
+				"required" : false,
+				"creatives" : [
+					{
+						"creativeId" : "3936523",
+						"baseUnit" : "video",
+						"duration" : "32",
+						"creativeRenditions" : [
+							{
+								"creativeRenditionId" : "25010677",
+								"wrapperType" : "external\/vast-2",
+								"wrapperUrl" : "https:\/\/search.spotxchange.com\/vast\/2.0\/237336?VPAID=js&content_page_url=http%3A\/\/www.cmt.com\/news\/1819447\/top-moments-from-cmt-crossroads-halsey-kelsea-ballerini\/&cb=0.0.0.1571667653.2.1167856773&player_width=1920&player_height=1080&custom[sectionid]=74639&custom[sectiontitle]=CMT%20\/%20Videos&custom[seriestitle]=CMT%20Videos%20\/%20Shows%20\/%20CMT%20Crossroads%20\/%20Clips&custom[seriesid]=g10781642",
+								"creativeApi" : "None",
+								"preference" : "0",
+								"bitrate" : "1000",
+								"parameters" : [],
+								"asset" : {
+									"id" : "25689533",
+									"name" : "Default Asset for Rendition",
+									"contentType" : "text\/js_ref",
+									"mimeType" : "text\/javascript",
+									"deliveryMethod" : "progressive"
+								},
+								"otherAssets" : []
+							}
+						],
+						"parameters" : [
+							{
+								"name" : "ias_parameters",
+								"value" : "anID=926593;reqNetworkId=82125;adNetworkId=82125;advertiserId=775956;campaignId=25570408;ioId=27589394;ioExternalId=;placementId=27589396;adUnitId=14576;seriesId=g10781642;assetId=249277247;assetCustomId=mgid:arc:video:cmt.com:813c40c7-f26a-4ac5-ae99-749522129eaf;siteId=g148502;sectionId=74639;creativeId=3936523;renditionId= 25010677;renditionDuration=32;timePositionClass=preroll;pageType=;slotDim=1440x900;slotId=0.0.0.1571667653.2.1167856773;prof=82125:EdgeHTML5Desktop;cpxInd=cpx-non;transId=1585202126607925026"
+							},
+							{
+								"name" : "moat",
+								"value" : "82125;82125;775956;25570408;27589394;;27589396;14576;g10781642;g148502;74639;249277247;mgid:arc:video:cmt.com:813c40c7-f26a-4ac5-ae99-749522129eaf;3936523;25010677;32;preroll;;82125:EdgeHTML5Desktop;cpx-non;1585202126607925026"
+							},
+							{
+								"name" : "moat_callback",
+								"value" : "https:\/\/140cc.v.fwmrm.net\/ad\/l\/1?s=b229&n=82125%3B82125%3B174975%3B372496%3B376521%3B379619%3B382114%3B384777%3B386329%3B505334%3B510839%3B512029%3B515018%3B516274%3B516448%3B516649&t=1585202126607925026&f=262144&r=82125&adid=27589604&reid=25010677&arid=0&iw=&uxnw=&uxss=&uxct=&absid=&trigid=&et=i&cn=concreteEvent"
+							}
+						]
+					}
+				]
+			},
+			{
+				"adId" : "38659762",
+				"noPreload" : false,
+				"noLoad" : false,
+				"adUnit" : "14576",
+				"isWrapper" : false,
+				"required" : false,
+				"creatives" : [
+					{
+						"creativeId" : "6312917",
+						"baseUnit" : "video",
+						"duration" : "15",
+						"creativeRenditions" : [
+							{
+								"creativeRenditionId" : "23911624",
+								"wrapperType" : "external\/vast-2",
+								"wrapperUrl" : "https:\/\/rtr.innovid.com\/r1.5e309ee92a8c17.28656418;cb=1747301789?dipn=deviceid&deviceid=&ivc_deviceid_raw=",
+								"creativeApi" : "VPAID",
+								"width" : "16",
+								"height" : "9",
+								"preference" : "0",
+								"bitrate" : "1000",
+								"parameters" : [],
+								"asset" : {
+									"id" : "24520644",
+									"name" : "Default Asset for Rendition",
+									"contentType" : "text\/js_ref",
+									"mimeType" : "text\/javascript",
+									"deliveryMethod" : "progressive"
+								},
+								"otherAssets" : []
+							}
+						],
+						"parameters" : [
+							{
+								"name" : "ias_parameters",
+								"value" : "anID=926593;reqNetworkId=82125;adNetworkId=82125;advertiserId=23072;campaignId=38659741;ioId=38659742;ioExternalId=19806;placementId=38659758;adUnitId=14576;seriesId=g10781642;assetId=249277247;assetCustomId=mgid:arc:video:cmt.com:813c40c7-f26a-4ac5-ae99-749522129eaf;siteId=g148502;sectionId=74639;creativeId=6312917;renditionId= 23911624;renditionDuration=15;timePositionClass=preroll;pageType=;slotDim=1440x900;slotId=0.0.0.1571667653.2.1167856773;prof=82125:EdgeHTML5Desktop;cpxInd=cpx-non;transId=1585202126607925026"
+							},
+							{
+								"name" : "moat",
+								"value" : "82125;82125;23072;38659741;38659742;19806;38659758;14576;g10781642;g148502;74639;249277247;mgid:arc:video:cmt.com:813c40c7-f26a-4ac5-ae99-749522129eaf;6312917;23911624;15;preroll;;82125:EdgeHTML5Desktop;cpx-non;1585202126607925026"
+							},
+							{
+								"name" : "moat_callback",
+								"value" : "https:\/\/140cc.v.fwmrm.net\/ad\/l\/1?s=b229&n=82125%3B82125%3B174975%3B372496%3B376521%3B379619%3B382114%3B384777%3B386329%3B505334%3B510839%3B512029%3B515018%3B516274%3B516448%3B516649&t=1585202126607925026&f=262144&r=82125&adid=38659762&reid=23911624&arid=0&iw=&uxnw=&uxss=&uxct=&absid=&trigid=&et=i&cn=concreteEvent"
+							}
+						]
+					}
+				]
+			},
+			{
+				"adId" : "38153995",
+				"noPreload" : false,
+				"noLoad" : false,
+				"adUnit" : "14576",
+				"isWrapper" : false,
+				"required" : false,
+				"creatives" : [
+					{
+						"creativeId" : "6184720",
+						"baseUnit" : "video",
+						"duration" : "15",
+						"creativeRenditions" : [
+							{
+								"creativeRenditionId" : "24441899",
+								"wrapperType" : "external\/vast-2",
+								"wrapperUrl" : "https:\/\/rtr.innovid.com\/r1.5e277e40b291a3.83838145;cb=633613936?dipn=deviceid&deviceid=&ivc_deviceid_raw=",
+								"creativeApi" : "VPAID",
+								"width" : "16",
+								"height" : "9",
+								"preference" : "0",
+								"bitrate" : "1000",
+								"parameters" : [],
+								"asset" : {
+									"id" : "25084907",
+									"name" : "Default Asset for Rendition",
+									"contentType" : "text\/js_ref",
+									"mimeType" : "text\/javascript",
+									"deliveryMethod" : "progressive"
+								},
+								"otherAssets" : []
+							}
+						],
+						"parameters" : [
+							{
+								"name" : "ias_parameters",
+								"value" : "anID=926593;reqNetworkId=82125;adNetworkId=82125;advertiserId=23072;campaignId=38153985;ioId=38153986;ioExternalId=19319;placementId=38153992;adUnitId=14576;seriesId=g10781642;assetId=249277247;assetCustomId=mgid:arc:video:cmt.com:813c40c7-f26a-4ac5-ae99-749522129eaf;siteId=g148502;sectionId=74639;creativeId=6184720;renditionId= 24441899;renditionDuration=15;timePositionClass=preroll;pageType=;slotDim=1440x900;slotId=0.0.0.1571667653.2.1167856773;prof=82125:EdgeHTML5Desktop;cpxInd=cpx-non;transId=1585202126607925026"
+							},
+							{
+								"name" : "moat",
+								"value" : "82125;82125;23072;38153985;38153986;19319;38153992;14576;g10781642;g148502;74639;249277247;mgid:arc:video:cmt.com:813c40c7-f26a-4ac5-ae99-749522129eaf;6184720;24441899;15;preroll;;82125:EdgeHTML5Desktop;cpx-non;1585202126607925026"
+							},
+							{
+								"name" : "moat_callback",
+								"value" : "https:\/\/140cc.v.fwmrm.net\/ad\/l\/1?s=b229&n=82125%3B82125%3B174975%3B372496%3B376521%3B379619%3B382114%3B384777%3B386329%3B505334%3B510839%3B512029%3B515018%3B516274%3B516448%3B516649&t=1585202126607925026&f=262144&r=82125&adid=38153995&reid=24441899&arid=0&iw=&uxnw=&uxss=&uxct=&absid=&trigid=&et=i&cn=concreteEvent"
+							}
+						]
+					}
+				]
+			},
+			{
+				"adId" : "37897855",
+				"noPreload" : false,
+				"noLoad" : false,
+				"adUnit" : "14576",
+				"isWrapper" : false,
+				"required" : false,
+				"creatives" : [
+					{
+						"creativeId" : "6533608",
+						"baseUnit" : "video",
+						"duration" : "30",
+						"creativeRenditions" : [
+							{
+								"creativeRenditionId" : "25184808",
+								"wrapperType" : "external\/vast-2",
+								"wrapperUrl" : "https:\/\/ad.doubleclick.net\/ddm\/pfadx\/N7676.150493MTV\/B23005604.269841185;sz=0x0;ord=1385405244;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text\/xml;dc_sdk_apis=2;dc_omid_p=",
+								"creativeApi" : "None",
+								"width" : "640",
+								"height" : "360",
+								"preference" : "0",
+								"bitrate" : "407",
+								"parameters" : [],
+								"asset" : {
+									"id" : "25876315",
+									"name" : "Default Asset for Rendition",
+									"contentType" : "video\/mp4-h264",
+									"mimeType" : "video\/mp4",
+									"deliveryMethod" : "progressive"
+								},
+								"otherAssets" : []
+							},
+							{
+								"creativeRenditionId" : "25184809",
+								"wrapperType" : "external\/vast-2",
+								"wrapperUrl" : "https:\/\/ad.doubleclick.net\/ddm\/pfadx\/N7676.150493MTV\/B23005604.269841185;sz=0x0;ord=1385405244;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text\/xml;dc_sdk_apis=2;dc_omid_p=",
+								"creativeApi" : "None",
+								"width" : "1280",
+								"height" : "720",
+								"preference" : "0",
+								"bitrate" : "2014",
+								"parameters" : [],
+								"asset" : {
+									"id" : "25876316",
+									"name" : "Default Asset for Rendition",
+									"contentType" : "video\/mp4-h264",
+									"mimeType" : "video\/mp4",
+									"deliveryMethod" : "progressive"
+								},
+								"otherAssets" : []
+							},
+							{
+								"creativeRenditionId" : "25184810",
+								"wrapperType" : "external\/vast-2",
+								"wrapperUrl" : "https:\/\/ad.doubleclick.net\/ddm\/pfadx\/N7676.150493MTV\/B23005604.269841185;sz=0x0;ord=1385405244;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text\/xml;dc_sdk_apis=2;dc_omid_p=",
+								"creativeApi" : "None",
+								"width" : "854",
+								"height" : "480",
+								"preference" : "0",
+								"bitrate" : "735",
+								"parameters" : [],
+								"asset" : {
+									"id" : "25876317",
+									"name" : "Default Asset for Rendition",
+									"contentType" : "video\/mp4-h264",
+									"mimeType" : "video\/mp4",
+									"deliveryMethod" : "progressive"
+								},
+								"otherAssets" : []
+							},
+							{
+								"creativeRenditionId" : "25184812",
+								"wrapperType" : "external\/vast-2",
+								"wrapperUrl" : "https:\/\/ad.doubleclick.net\/ddm\/pfadx\/N7676.150493MTV\/B23005604.269841185;sz=0x0;ord=1385405244;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text\/xml;dc_sdk_apis=2;dc_omid_p=",
+								"creativeApi" : "None",
+								"width" : "480",
+								"height" : "270",
+								"preference" : "0",
+								"bitrate" : "405",
+								"parameters" : [],
+								"asset" : {
+									"id" : "25876319",
+									"name" : "Default Asset for Rendition",
+									"contentType" : "video\/mp4-h264",
+									"mimeType" : "video\/mp4",
+									"deliveryMethod" : "progressive"
+								},
+								"otherAssets" : []
+							},
+							{
+								"creativeRenditionId" : "25184813",
+								"wrapperType" : "external\/vast-2",
+								"wrapperUrl" : "https:\/\/ad.doubleclick.net\/ddm\/pfadx\/N7676.150493MTV\/B23005604.269841185;sz=0x0;ord=1385405244;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text\/xml;dc_sdk_apis=2;dc_omid_p=",
+								"creativeApi" : "None",
+								"width" : "640",
+								"height" : "360",
+								"preference" : "0",
+								"bitrate" : "1013",
+								"parameters" : [],
+								"asset" : {
+									"id" : "25876320",
+									"name" : "Default Asset for Rendition",
+									"contentType" : "video\/mp4-h264",
+									"mimeType" : "video\/mp4",
+									"deliveryMethod" : "progressive"
+								},
+								"otherAssets" : []
+							},
+							{
+								"creativeRenditionId" : "25184814",
+								"wrapperType" : "external\/vast-2",
+								"wrapperUrl" : "https:\/\/ad.doubleclick.net\/ddm\/pfadx\/N7676.150493MTV\/B23005604.269841185;sz=0x0;ord=1385405244;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text\/xml;dc_sdk_apis=2;dc_omid_p=",
+								"creativeApi" : "None",
+								"width" : "640",
+								"height" : "360",
+								"preference" : "0",
+								"bitrate" : "1426",
+								"parameters" : [],
+								"asset" : {
+									"id" : "25876321",
+									"name" : "Default Asset for Rendition",
+									"contentType" : "video\/mp4-h264",
+									"mimeType" : "video\/mp4",
+									"deliveryMethod" : "progressive"
+								},
+								"otherAssets" : []
+							},
+							{
+								"creativeRenditionId" : "25184815",
+								"wrapperType" : "external\/vast-2",
+								"wrapperUrl" : "https:\/\/ad.doubleclick.net\/ddm\/pfadx\/N7676.150493MTV\/B23005604.269841185;sz=0x0;ord=1385405244;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text\/xml;dc_sdk_apis=2;dc_omid_p=",
+								"creativeApi" : "None",
+								"width" : "640",
+								"height" : "360",
+								"preference" : "0",
+								"bitrate" : "299",
+								"parameters" : [],
+								"asset" : {
+									"id" : "25876322",
+									"name" : "Default Asset for Rendition",
+									"contentType" : "video\/mp4-h264",
+									"mimeType" : "video\/mp4",
+									"deliveryMethod" : "progressive"
+								},
+								"otherAssets" : []
+							},
+							{
+								"creativeRenditionId" : "25184816",
+								"wrapperType" : "external\/vast-2",
+								"wrapperUrl" : "https:\/\/ad.doubleclick.net\/ddm\/pfadx\/N7676.150493MTV\/B23005604.269841185;sz=0x0;ord=1385405244;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text\/xml;dc_sdk_apis=2;dc_omid_p=",
+								"creativeApi" : "None",
+								"width" : "720",
+								"height" : "406",
+								"preference" : "0",
+								"bitrate" : "486",
+								"parameters" : [],
+								"asset" : {
+									"id" : "25876323",
+									"name" : "Default Asset for Rendition",
+									"contentType" : "video\/mp4-h264",
+									"mimeType" : "video\/mp4",
+									"deliveryMethod" : "progressive"
+								},
+								"otherAssets" : []
+							},
+							{
+								"creativeRenditionId" : "25184817",
+								"wrapperType" : "external\/vast-2",
+								"wrapperUrl" : "https:\/\/ad.doubleclick.net\/ddm\/pfadx\/N7676.150493MTV\/B23005604.269841185;sz=0x0;ord=1385405244;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dcmt=text\/xml;dc_sdk_apis=2;dc_omid_p=",
+								"creativeApi" : "None",
+								"width" : "1024",
+								"height" : "576",
+								"preference" : "0",
+								"bitrate" : "861",
+								"parameters" : [],
+								"asset" : {
+									"id" : "25876324",
+									"name" : "Default Asset for Rendition",
+									"contentType" : "video\/mp4-h264",
+									"mimeType" : "video\/mp4",
+									"deliveryMethod" : "progressive"
+								},
+								"otherAssets" : []
+							}
+						],
+						"parameters" : [
+							{
+								"name" : "ias_parameters",
+								"value" : "anID=926593;reqNetworkId=82125;adNetworkId=82125;advertiserId=22254;campaignId=36532483;ioId=36532484;ioExternalId=18185;placementId=37897852;adUnitId=14576;seriesId=g10781642;assetId=249277247;assetCustomId=mgid:arc:video:cmt.com:813c40c7-f26a-4ac5-ae99-749522129eaf;siteId=g148502;sectionId=74639;creativeId=6533608;renditionId= 25184808;renditionDuration=30;timePositionClass=preroll;pageType=;slotDim=1440x900;slotId=0.0.0.1571667653.2.1167856773;prof=82125:EdgeHTML5Desktop;cpxInd=cpx-non;transId=1585202126607925026"
+							},
+							{
+								"name" : "moat",
+								"value" : "82125;82125;22254;36532483;36532484;18185;37897852;14576;g10781642;g148502;74639;249277247;mgid:arc:video:cmt.com:813c40c7-f26a-4ac5-ae99-749522129eaf;6533608;25184808;30;preroll;;82125:EdgeHTML5Desktop;cpx-non;1585202126607925026"
+							},
+							{
+								"name" : "moat_callback",
+								"value" : "https:\/\/140cc.v.fwmrm.net\/ad\/l\/1?s=b229&n=82125%3B82125%3B174975%3B372496%3B376521%3B379619%3B382114%3B384777%3B386329%3B505334%3B510839%3B512029%3B515018%3B516274%3B516448%3B516649&t=1585202126607925026&f=262144&r=82125&adid=37897855&reid=25184808&arid=0&iw=&uxnw=&uxss=&uxct=&absid=&trigid=&et=i&cn=concreteEvent"
+							}
+						]
+					}
+				]
+			},
+			{
+				"adId" : "19303192",
+				"noPreload" : false,
+				"noLoad" : false,
+				"adUnit" : "14576",
+				"isWrapper" : false,
+				"required" : false,
+				"creatives" : [
+					{
+						"creativeId" : "2724413",
+						"baseUnit" : "video",
+						"duration" : "30",
+						"creativeRenditions" : [
+							{
+								"creativeRenditionId" : "7392288",
+								"wrapperType" : "external\/vast-2",
+								"wrapperUrl" : "https:\/\/an.facebook.com\/v1\/instream\/vast.xml?placementid=319807525082177_319816931747903&pageurl=http:\/\/www.cmt.com\/news\/1819447\/top-moments-from-cmt-crossroads-halsey-kelsea-ballerini\/&maxaddurationms=32000&type=application\/javascript",
+								"creativeApi" : "VPAID",
+								"width" : "1920",
+								"height" : "1080",
+								"preference" : "0",
+								"bitrate" : "800",
+								"parameters" : [],
+								"asset" : {
+									"id" : "7317505",
+									"name" : "Default Asset for Rendition",
+									"contentType" : "text\/js_ref",
+									"mimeType" : "text\/javascript",
+									"deliveryMethod" : "progressive"
+								},
+								"otherAssets" : []
+							}
+						],
+						"parameters" : [
+							{
+								"name" : "translator.vast.loadWithCookie",
+								"value" : "true"
+							},
+							{
+								"name" : "_fw_survey_url",
+								"value" : "https:\/\/s.imgsynd.com\/2\/255265\/analytics.js?pc=19303191&ac=17909028&cr=2724413&dm=1920x1080&ai=19303192&pp=Facebook%20Audience%20Network%20-%20FAN%20-%20Indirect&sn=CMT%20\/%20Videos&c1=17909029&c2=&dt=2552651496352714307011"
+							},
+							{
+								"name" : "ias_parameters",
+								"value" : "anID=926593;reqNetworkId=82125;adNetworkId=82125;advertiserId=683813;campaignId=17909028;ioId=17909029;ioExternalId=;placementId=19303191;adUnitId=14576;seriesId=g10781642;assetId=249277247;assetCustomId=mgid:arc:video:cmt.com:813c40c7-f26a-4ac5-ae99-749522129eaf;siteId=g148502;sectionId=74639;creativeId=2724413;renditionId= 7392288;renditionDuration=30;timePositionClass=preroll;pageType=;slotDim=1440x900;slotId=0.0.0.1571667653.2.1167856773;prof=82125:EdgeHTML5Desktop;cpxInd=cpx-non;transId=1585202126607925026"
+							},
+							{
+								"name" : "moat",
+								"value" : "82125;82125;683813;17909028;17909029;;19303191;14576;g10781642;g148502;74639;249277247;mgid:arc:video:cmt.com:813c40c7-f26a-4ac5-ae99-749522129eaf;2724413;7392288;30;preroll;;82125:EdgeHTML5Desktop;cpx-non;1585202126607925026"
+							},
+							{
+								"name" : "moat_callback",
+								"value" : "https:\/\/140cc.v.fwmrm.net\/ad\/l\/1?s=b229&n=82125%3B82125%3B174975%3B372496%3B376521%3B379619%3B382114%3B384777%3B386329%3B505334%3B510839%3B512029%3B515018%3B516274%3B516448%3B516649&t=1585202126607925026&f=262144&r=82125&adid=19303192&reid=7392288&arid=0&iw=&uxnw=&uxss=&uxct=&absid=&trigid=&et=i&cn=concreteEvent"
+							}
+						]
+					}
+				]
+			},
+			{
+				"adId" : "37356221",
+				"noPreload" : false,
+				"noLoad" : false,
+				"adUnit" : "14576",
+				"isWrapper" : false,
+				"required" : false,
+				"creatives" : [
+					{
+						"creativeId" : "5973904",
+						"baseUnit" : "video",
+						"duration" : "30",
+						"creativeRenditions" : [
+							{
+								"creativeRenditionId" : "21963445",
+								"wrapperType" : "external\/vast-2",
+								"wrapperUrl" : "https:\/\/pv-tm.everesttech.net\/--nt\/freewheelv2\/OvRU71jq3ZepSebuBPD6\/?vpaid=T&channel_type=web&timestamp=326357415&channel_id=www.cmt.com",
+								"creativeApi" : "None",
+								"width" : "1920",
+								"height" : "1080",
+								"preference" : "0",
+								"bitrate" : "800",
+								"parameters" : [],
+								"asset" : {
+									"id" : "22458378",
+									"name" : "?vpaid=T&channel_type=web&timestamp=#{ad.ref.random}&channel_id=#{request.referrerDomain}",
+									"contentType" : "video\/mp4-h264",
+									"mimeType" : "video\/mp4",
+									"deliveryMethod" : "progressive"
+								},
+								"otherAssets" : []
+							}
+						],
+						"parameters" : [
+							{
+								"name" : "ias_parameters",
+								"value" : "anID=926593;reqNetworkId=82125;adNetworkId=82125;advertiserId=22957;campaignId=37356188;ioId=37356189;ioExternalId=;placementId=37356191;adUnitId=14576;seriesId=g10781642;assetId=249277247;assetCustomId=mgid:arc:video:cmt.com:813c40c7-f26a-4ac5-ae99-749522129eaf;siteId=g148502;sectionId=74639;creativeId=5973904;renditionId= 21963445;renditionDuration=30;timePositionClass=preroll;pageType=;slotDim=1440x900;slotId=0.0.0.1571667653.2.1167856773;prof=82125:EdgeHTML5Desktop;cpxInd=cpx-non;transId=1585202126607925026"
+							},
+							{
+								"name" : "moat",
+								"value" : "82125;82125;22957;37356188;37356189;;37356191;14576;g10781642;g148502;74639;249277247;mgid:arc:video:cmt.com:813c40c7-f26a-4ac5-ae99-749522129eaf;5973904;21963445;30;preroll;;82125:EdgeHTML5Desktop;cpx-non;1585202126607925026"
+							},
+							{
+								"name" : "moat_callback",
+								"value" : "https:\/\/140cc.v.fwmrm.net\/ad\/l\/1?s=b229&n=82125%3B82125%3B174975%3B372496%3B376521%3B379619%3B382114%3B384777%3B386329%3B505334%3B510839%3B512029%3B515018%3B516274%3B516448%3B516649&t=1585202126607925026&f=262144&r=82125&adid=37356221&reid=21963445&arid=0&iw=&uxnw=&uxss=&uxct=&absid=&trigid=&et=i&cn=concreteEvent"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"siteSection" : {
+		"customId" : "CMT_Videos",
+		"videoPlayer" : {
+			"videoAsset" : {
+				"eventCallbacks" : [
+					{
+						"url" : "https:\/\/140cc.v.fwmrm.net\/ad\/l\/1?s=b229&n=82125%3B82125%3B174975%3B372496%3B376521%3B379619%3B382114%3B384777%3B386329%3B505334%3B510839%3B512029%3B515018%3B516274%3B516448%3B516649&t=1585202126607925026&f=262144&cn=videoView&et=i&uxnw=&uxss=&uxct=",
+						"name" : "videoView",
+						"type" : "IMPRESSION",
+						"use" : "OVERRIDE",
+						"showBrowser" : false,
+						"trackingUrls" : []
+					}
+				],
+				"customId" : "mgid:arc:video:cmt.com:813c40c7-f26a-4ac5-ae99-749522129eaf",
+				"random" : "245493133",
+				"networkId" : "82125",
+				"adSlots" : [
+					{
+						"eventCallbacks" : [
+							{
+								"url" : "https:\/\/140cc.v.fwmrm.net\/ad\/l\/1?s=b229&n=82125%3B82125%3B174975%3B372496%3B376521%3B379619%3B382114%3B384777%3B386329%3B505334%3B510839%3B512029%3B515018%3B516274%3B516448%3B516649&t=1585202126607925026&f=262144&cn=slotImpression&et=i&tpos=0&init=1&slid=0,1,2,3",
+								"name" : "slotImpression",
+								"type" : "IMPRESSION",
+								"use" : "OVERRIDE",
+								"showBrowser" : false,
+								"trackingUrls" : []
+							},
+							{
+								"url" : "https:\/\/140cc.v.fwmrm.net\/ad\/l\/1?s=b229&n=82125%3B82125%3B174975%3B372496%3B376521%3B379619%3B382114%3B384777%3B386329%3B505334%3B510839%3B512029%3B515018%3B516274%3B516448%3B516649&t=1585202126607925026&f=262144&cn=slotEnd&et=i&tpos=0&init=1&slid=0,1,2,3",
+								"name" : "slotEnd",
+								"type" : "IMPRESSION",
+								"use" : "OVERRIDE",
+								"showBrowser" : false,
+								"trackingUrls" : []
+							}
+						],
+						"customId" : "0.0.0.1571667653",
+						"compatibleDimensions" : "1440,900",
+						"selectedAds" : [
+							{
+								"eventCallbacks" : [
+									{
+										"url" : "https:\/\/140cc.v.fwmrm.net\/ad\/l\/1?s=b229&n=82125%3B82125%3B174975%3B372496%3B376521%3B379619%3B382114%3B384777%3B386329%3B505334%3B510839%3B512029%3B515018%3B516274%3B516448%3B516649&t=1585202126607925026&f=262144&r=82125&adid=27589604&reid=25010677&arid=0&iw=&uxnw=&uxss=&uxct=",
+										"type" : "GENERIC",
+										"use" : "BASE",
+										"showBrowser" : false,
+										"trackingUrls" : []
+									},
+									{
+										"url" : "https:\/\/140cc.v.fwmrm.net\/ad\/l\/1?s=b229&n=82125%3B82125%3B174975%3B372496%3B376521%3B379619%3B382114%3B384777%3B386329%3B505334%3B510839%3B512029%3B515018%3B516274%3B516448%3B516649&t=1585202126607925026&f=262144&r=82125&adid=27589604&reid=25010677&arid=0&auid=&cn=defaultImpression&et=i&_cc=27589604,25010677,,23338.28626.28630.34627.42922.43205.44212.44957.44961.45447.45578.45579.45580.45878.45883.46034.46189.46487.46691.46706.46907.46953.47395.47517.47871.47955.47956.47957.47958.48046.48049.48138.48333.48457.48458.48459.48628.48768.48790.48792.48816.48819.48856.48875.48877.49092.49418.49457.49516.50076.50124.50125.50126.50162.50201.50640.50726.51332.51615.51616.51620.51621.51628.51676.51684.51756.51850.51907.52252.52255.52724.,1585202126,1&tpos=0&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+										"name" : "defaultImpression",
+										"type" : "IMPRESSION",
+										"use" : "OVERRIDE",
+										"showBrowser" : false,
+										"trackingUrls" : [
+											{
+												"name" : "127719",
+												"value" : "https:\/\/ads.stickyadstv.com\/user-matching?id=185"
+											},
+											{
+												"name" : "127719",
+												"value" : "https:\/\/ads.stickyadstv.com\/auto-user-sync"
+											},
+											{
+												"name" : "384101",
+												"value" : "https:\/\/dpm.demdex.net\/ibs:dpid=796&dpuuid=b229_6808391288719782494"
+											},
+											{
+												"name" : "386123",
+												"value" : "https:\/\/beacon.krxd.net\/usermatch.gif?partner=freewheel&partner_uid=b229_6808391288719782494"
+											},
+											{
+												"name" : "512025",
+												"value" : "https:\/\/idsync.rlcdn.com\/709633.gif?partner_uid=b229_6808391288719782494"
+											},
+											{
+												"name" : "516537",
+												"value" : "https:\/\/pm.w55c.net\/ping_match.gif?st=FREEWHEEL&rurl=https%3A%2F%2F5d0b6.v.fwmrm.net%2Fad%2Fu%3Fnw%3D516448%26dpid%3D516537%26buid%3D_wfivefivec_%26token%3Ddataxu"
+											}
+										]
+									},
+									{
+										"url" : "https:\/\/140cc.v.fwmrm.net\/ad\/l\/1?s=b229&n=82125%3B82125%3B174975%3B372496%3B376521%3B379619%3B382114%3B384777%3B386329%3B505334%3B510839%3B512029%3B515018%3B516274%3B516448%3B516649&t=1585202126607925026&f=262144&r=82125&adid=27589604&reid=25010677&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=0&cr=",
+										"name" : "defaultClick",
+										"type" : "CLICK",
+										"use" : "OVERRIDE",
+										"showBrowser" : false,
+										"trackingUrls" : []
+									}
+								],
+								"adId" : "27589604",
+								"creativeId" : "3936523",
+								"replicaId" : "0",
+								"networkId" : "82125",
+								"creativeRenditionId" : "25010677",
+								"companionAds" : [],
+								"fallbackAds" : [
+									{
+										"eventCallbacks" : [
+											{
+												"url" : "https:\/\/140cc.v.fwmrm.net\/ad\/l\/1?s=b229&n=82125%3B82125%3B174975%3B372496%3B376521%3B379619%3B382114%3B384777%3B386329%3B505334%3B510839%3B512029%3B515018%3B516274%3B516448%3B516649&t=1585202126607925026&f=262144&r=82125&adid=37356221&reid=21963445&arid=0&iw=&uxnw=&uxss=&uxct=",
+												"type" : "GENERIC",
+												"use" : "BASE",
+												"showBrowser" : false,
+												"trackingUrls" : []
+											},
+											{
+												"url" : "https:\/\/140cc.v.fwmrm.net\/ad\/l\/1?s=b229&n=82125%3B82125%3B174975%3B372496%3B376521%3B379619%3B382114%3B384777%3B386329%3B505334%3B510839%3B512029%3B515018%3B516274%3B516448%3B516649&t=1585202126607925026&f=262144&r=82125&adid=37356221&reid=21963445&arid=0&auid=&cn=defaultImpression&et=i&_cc=37356221,21963445,,23338.28626.28630.34627.42922.43205.44212.44957.44961.45447.45578.45579.45580.45878.45883.46034.46189.46487.46691.46706.46907.46953.47395.47517.47871.47955.47956.47957.47958.48046.48049.48138.48333.48457.48458.48459.48628.48768.48790.48792.48816.48819.48856.48875.48877.49092.49418.49457.49516.50076.50124.50125.50126.50162.50201.50640.50726.51332.51615.51616.51620.51621.51628.51676.51684.51756.51850.51907.52252.52255.52724.,1585202126,1&tpos=0&iw=&uxnw=&uxss=&uxct=&init=1&asid=249277247&ssid=74639&cr=",
+												"name" : "defaultImpression",
+												"type" : "IMPRESSION",
+												"use" : "OVERRIDE",
+												"showBrowser" : false,
+												"trackingUrls" : []
+											},
+											{
+												"url" : "https:\/\/140cc.v.fwmrm.net\/ad\/l\/1?s=b229&n=82125%3B82125%3B174975%3B372496%3B376521%3B379619%3B382114%3B384777%3B386329%3B505334%3B510839%3B512029%3B515018%3B516274%3B516448%3B516649&t=1585202126607925026&f=262144&r=82125&adid=37356221&reid=21963445&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=0&cr=",
+												"name" : "defaultClick",
+												"type" : "CLICK",
+												"use" : "OVERRIDE",
+												"showBrowser" : false,
+												"trackingUrls" : []
+											}
+										],
+										"adId" : "37356221",
+										"creativeId" : "5973904",
+										"replicaId" : "0",
+										"networkId" : "82125",
+										"creativeRenditionId" : "21963445",
+										"companionAds" : [],
+										"fallbackAds" : []
+									},
+									{
+										"eventCallbacks" : [
+											{
+												"url" : "https:\/\/140cc.v.fwmrm.net\/ad\/l\/1?s=b229&n=82125%3B82125%3B174975%3B372496%3B376521%3B379619%3B382114%3B384777%3B386329%3B505334%3B510839%3B512029%3B515018%3B516274%3B516448%3B516649&t=1585202126607925026&f=262144&r=82125&adid=19303192&reid=7392288&arid=0&iw=&uxnw=&uxss=&uxct=",
+												"type" : "GENERIC",
+												"use" : "BASE",
+												"showBrowser" : false,
+												"trackingUrls" : []
+											},
+											{
+												"url" : "https:\/\/140cc.v.fwmrm.net\/ad\/l\/1?s=b229&n=82125%3B82125%3B174975%3B372496%3B376521%3B379619%3B382114%3B384777%3B386329%3B505334%3B510839%3B512029%3B515018%3B516274%3B516448%3B516649&t=1585202126607925026&f=262144&r=82125&adid=19303192&reid=7392288&arid=0&auid=&cn=defaultImpression&et=i&_cc=19303192,7392288,,23338.28626.28630.34627.42922.43205.44212.44957.44961.45447.45578.45579.45580.45878.45883.46034.46189.46487.46691.46706.46907.46953.47395.47517.47871.47955.47956.47957.47958.48046.48049.48138.48333.48457.48458.48459.48628.48768.48790.48792.48816.48819.48856.48875.48877.49092.49418.49457.49516.50076.50124.50125.50126.50162.50201.50640.50726.51332.51615.51616.51620.51621.51628.51676.51684.51756.51850.51907.52252.52255.52724.,1585202126,1&tpos=0&iw=&uxnw=&uxss=&uxct=&init=1&cr=",
+												"name" : "defaultImpression",
+												"type" : "IMPRESSION",
+												"use" : "OVERRIDE",
+												"showBrowser" : false,
+												"trackingUrls" : []
+											},
+											{
+												"url" : "https:\/\/140cc.v.fwmrm.net\/ad\/l\/1?s=b229&n=82125%3B82125%3B174975%3B372496%3B376521%3B379619%3B382114%3B384777%3B386329%3B505334%3B510839%3B512029%3B515018%3B516274%3B516448%3B516649&t=1585202126607925026&f=262144&r=82125&adid=19303192&reid=7392288&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=0&cr=",
+												"name" : "defaultClick",
+												"type" : "CLICK",
+												"use" : "OVERRIDE",
+												"showBrowser" : false,
+												"trackingUrls" : []
+											}
+										],
+										"adId" : "19303192",
+										"creativeId" : "2724413",
+										"replicaId" : "0",
+										"networkId" : "82125",
+										"creativeRenditionId" : "7392288",
+										"companionAds" : [],
+										"fallbackAds" : [],
+										"surveyUrl" : "https:\/\/s.imgsynd.com\/2\/255265\/analytics.js?pc=19303191&ac=17909028&cr=2724413&dm=1920x1080&ai=19303192&pp=Facebook%20Audience%20Network%20-%20FAN%20-%20Indirect&sn=CMT%20\/%20Videos&c1=17909029&c2=&dt=2552651496352714307011"
+									},
+									{
+										"eventCallbacks" : [
+											{
+												"url" : "https:\/\/140cc.v.fwmrm.net\/ad\/l\/1?s=b229&n=82125%3B82125%3B174975%3B372496%3B376521%3B379619%3B382114%3B384777%3B386329%3B505334%3B510839%3B512029%3B515018%3B516274%3B516448%3B516649&t=1585202126607925026&f=262144&r=82125&adid=37897855&reid=25184808&arid=0&iw=&uxnw=&uxss=&uxct=",
+												"type" : "GENERIC",
+												"use" : "BASE",
+												"showBrowser" : false,
+												"trackingUrls" : []
+											},
+											{
+												"url" : "https:\/\/140cc.v.fwmrm.net\/ad\/l\/1?s=b229&n=82125%3B82125%3B174975%3B372496%3B376521%3B379619%3B382114%3B384777%3B386329%3B505334%3B510839%3B512029%3B515018%3B516274%3B516448%3B516649&t=1585202126607925026&f=262144&r=82125&adid=37897855&reid=25184808&arid=0&auid=&cn=defaultImpression&et=i&_cc=37897855,25184808,,23338.28626.28630.34627.42922.43205.44212.44957.44961.45447.45578.45579.45580.45878.45883.46034.46189.46487.46691.46706.46907.46953.47395.47517.47871.47955.47956.47957.47958.48046.48049.48138.48333.48457.48458.48459.48628.48768.48790.48792.48816.48819.48856.48875.48877.49092.49418.49457.49516.50076.50124.50125.50126.50162.50201.50640.50726.51332.51615.51616.51620.51621.51628.51676.51684.51756.51850.51907.52252.52255.52724.,1585202126,1&tpos=0&iw=&uxnw=&uxss=&uxct=&init=1&asid=249277247&ssid=74639&cr=",
+												"name" : "defaultImpression",
+												"type" : "IMPRESSION",
+												"use" : "OVERRIDE",
+												"showBrowser" : false,
+												"trackingUrls" : []
+											},
+											{
+												"url" : "https:\/\/140cc.v.fwmrm.net\/ad\/l\/1?s=b229&n=82125%3B82125%3B174975%3B372496%3B376521%3B379619%3B382114%3B384777%3B386329%3B505334%3B510839%3B512029%3B515018%3B516274%3B516448%3B516649&t=1585202126607925026&f=262144&r=82125&adid=37897855&reid=25184808&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=0&cr=",
+												"name" : "defaultClick",
+												"type" : "CLICK",
+												"use" : "OVERRIDE",
+												"showBrowser" : false,
+												"trackingUrls" : []
+											}
+										],
+										"adId" : "37897855",
+										"creativeId" : "6533608",
+										"replicaId" : "0",
+										"networkId" : "82125",
+										"creativeRenditionId" : "25184808",
+										"companionAds" : [],
+										"fallbackAds" : []
+									},
+									{
+										"eventCallbacks" : [
+											{
+												"url" : "https:\/\/140cc.v.fwmrm.net\/ad\/l\/1?s=b229&n=82125%3B82125%3B174975%3B372496%3B376521%3B379619%3B382114%3B384777%3B386329%3B505334%3B510839%3B512029%3B515018%3B516274%3B516448%3B516649&t=1585202126607925026&f=262144&r=82125&adid=38153995&reid=24441899&arid=0&iw=&uxnw=&uxss=&uxct=",
+												"type" : "GENERIC",
+												"use" : "BASE",
+												"showBrowser" : false,
+												"trackingUrls" : []
+											},
+											{
+												"url" : "https:\/\/140cc.v.fwmrm.net\/ad\/l\/1?s=b229&n=82125%3B82125%3B174975%3B372496%3B376521%3B379619%3B382114%3B384777%3B386329%3B505334%3B510839%3B512029%3B515018%3B516274%3B516448%3B516649&t=1585202126607925026&f=262144&r=82125&adid=38153995&reid=24441899&arid=0&auid=&cn=defaultImpression&et=i&_cc=38153995,24441899,,23338.28626.28630.34627.42922.43205.44212.44957.44961.45447.45578.45579.45580.45878.45883.46034.46189.46487.46691.46706.46907.46953.47395.47517.47871.47955.47956.47957.47958.48046.48049.48138.48333.48457.48458.48459.48628.48768.48790.48792.48816.48819.48856.48875.48877.49092.49418.49457.49516.50076.50124.50125.50126.50162.50201.50640.50726.51332.51615.51616.51620.51621.51628.51676.51684.51756.51850.51907.52252.52255.52724.,1585202126,1&tpos=0&iw=&uxnw=&uxss=&uxct=&init=1&asid=249277247&ssid=74639&cr=",
+												"name" : "defaultImpression",
+												"type" : "IMPRESSION",
+												"use" : "OVERRIDE",
+												"showBrowser" : false,
+												"trackingUrls" : []
+											},
+											{
+												"url" : "https:\/\/140cc.v.fwmrm.net\/ad\/l\/1?s=b229&n=82125%3B82125%3B174975%3B372496%3B376521%3B379619%3B382114%3B384777%3B386329%3B505334%3B510839%3B512029%3B515018%3B516274%3B516448%3B516649&t=1585202126607925026&f=262144&r=82125&adid=38153995&reid=24441899&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=0&cr=",
+												"name" : "defaultClick",
+												"type" : "CLICK",
+												"use" : "OVERRIDE",
+												"showBrowser" : false,
+												"trackingUrls" : []
+											}
+										],
+										"adId" : "38153995",
+										"creativeId" : "6184720",
+										"replicaId" : "0",
+										"networkId" : "82125",
+										"creativeRenditionId" : "24441899",
+										"companionAds" : [],
+										"fallbackAds" : []
+									},
+									{
+										"eventCallbacks" : [
+											{
+												"url" : "https:\/\/140cc.v.fwmrm.net\/ad\/l\/1?s=b229&n=82125%3B82125%3B174975%3B372496%3B376521%3B379619%3B382114%3B384777%3B386329%3B505334%3B510839%3B512029%3B515018%3B516274%3B516448%3B516649&t=1585202126607925026&f=262144&r=82125&adid=38659762&reid=23911624&arid=0&iw=&uxnw=&uxss=&uxct=",
+												"type" : "GENERIC",
+												"use" : "BASE",
+												"showBrowser" : false,
+												"trackingUrls" : []
+											},
+											{
+												"url" : "https:\/\/140cc.v.fwmrm.net\/ad\/l\/1?s=b229&n=82125%3B82125%3B174975%3B372496%3B376521%3B379619%3B382114%3B384777%3B386329%3B505334%3B510839%3B512029%3B515018%3B516274%3B516448%3B516649&t=1585202126607925026&f=262144&r=82125&adid=38659762&reid=23911624&arid=0&auid=&cn=defaultImpression&et=i&_cc=38659762,23911624,,23338.28626.28630.34627.42922.43205.44212.44957.44961.45447.45578.45579.45580.45878.45883.46034.46189.46487.46691.46706.46907.46953.47395.47517.47871.47955.47956.47957.47958.48046.48049.48138.48333.48457.48458.48459.48628.48768.48790.48792.48816.48819.48856.48875.48877.49092.49418.49457.49516.50076.50124.50125.50126.50162.50201.50640.50726.51332.51615.51616.51620.51621.51628.51676.51684.51756.51850.51907.52252.52255.52724.,1585202126,1&tpos=0&iw=&uxnw=&uxss=&uxct=&init=1&asid=249277247&ssid=74639&cr=",
+												"name" : "defaultImpression",
+												"type" : "IMPRESSION",
+												"use" : "OVERRIDE",
+												"showBrowser" : false,
+												"trackingUrls" : []
+											},
+											{
+												"url" : "https:\/\/140cc.v.fwmrm.net\/ad\/l\/1?s=b229&n=82125%3B82125%3B174975%3B372496%3B376521%3B379619%3B382114%3B384777%3B386329%3B505334%3B510839%3B512029%3B515018%3B516274%3B516448%3B516649&t=1585202126607925026&f=262144&r=82125&adid=38659762&reid=23911624&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=0&cr=",
+												"name" : "defaultClick",
+												"type" : "CLICK",
+												"use" : "OVERRIDE",
+												"showBrowser" : false,
+												"trackingUrls" : []
+											}
+										],
+										"adId" : "38659762",
+										"creativeId" : "6312917",
+										"replicaId" : "0",
+										"networkId" : "82125",
+										"creativeRenditionId" : "23911624",
+										"companionAds" : [],
+										"fallbackAds" : []
+									}
+								]
+							}
+						],
+						"timePosition" : "0",
+						"timePositionClass" : "preroll",
+						"adUnit" : "Standard Pre",
+						"source" : "generated",
+						"maxDuration" : "40"
+					}
+				]
+			},
+			"adSlots" : []
+		},
+		"adSlots" : []
+	}
+});
